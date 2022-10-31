@@ -51,7 +51,6 @@ If I want to check its length and display the first item from it:
 <<if $raining is true>>
 Rain spatters the dirt.
 <</if>>
-<</if>>
 <</nobr>>
 
 :: Loops usage example
