@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>512</string>
+	<string>528</string>
 	<key>AMApplicationVersion</key>
 	<string>2.10</string>
 	<key>AMDocumentVersion</key>
@@ -102,8 +102,6 @@ end run</string>
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
@@ -168,9 +166,9 @@ end run</string>
 SCRIPT_DIR="$( cd -- "$(dirname "$1")" &gt;/dev/null 2&gt;&amp;1 ; pwd -P )"
 COMPILER_PATH="\"$SCRIPT_DIR/compiler/tweego-2.1.1-macos-x64/tweego\""
 INPUT_PATH="\"$SCRIPT_DIR/source\""
-OUTPUT_PATH="\"$SCRIPT_DIR/output\""
+OUTPUT_PATH="\"$SCRIPT_DIR\""
 
-eval $COMPILER_PATH -o "$OUTPUT_PATH/story.html" $INPUT_PATH</string>
+eval $COMPILER_PATH -o "$OUTPUT_PATH/simulation.html" $INPUT_PATH</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -280,8 +278,6 @@ eval $COMPILER_PATH -o "$OUTPUT_PATH/story.html" $INPUT_PATH</string>
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
@@ -412,8 +408,6 @@ eval $COMPILER_PATH -o "$OUTPUT_PATH/story.html" $INPUT_PATH</string>
 						<string>2</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
@@ -427,14 +421,14 @@ eval $COMPILER_PATH -o "$OUTPUT_PATH/story.html" $INPUT_PATH</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>8A33D857-2FB0-4EC0-809F-0CBAF06220E7</key>
+		<key>214F0DD5-F395-4CF0-8DA8-EEB247ABC7D8</key>
 		<dict>
 			<key>from</key>
 			<string>C82AC4C0-0821-4354-88CA-BA4AC4FA2878 - C82AC4C0-0821-4354-88CA-BA4AC4FA2878</string>
 			<key>to</key>
 			<string>F31459DE-87A5-4EE9-8EB1-3C64E0DCD891 - F31459DE-87A5-4EE9-8EB1-3C64E0DCD891</string>
 		</dict>
-		<key>E2841205-A7AC-4EB9-A4F2-9F466D486033</key>
+		<key>78614300-F3C8-4C50-82F6-1403733E1524</key>
 		<dict>
 			<key>from</key>
 			<string>F31459DE-87A5-4EE9-8EB1-3C64E0DCD891 - F31459DE-87A5-4EE9-8EB1-3C64E0DCD891</string>
