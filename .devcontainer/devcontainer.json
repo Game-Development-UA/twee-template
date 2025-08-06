@@ -1,4 +1,10 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": {}
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "StephenGranade.twine-twee-language"
+      ]
+    }
+  }
 }
