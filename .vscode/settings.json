@@ -3,5 +3,6 @@
     "twineTweeLanguage.build.outputFile": "index.html",
     "twineTweeLanguage.build.buildDirectory": "",
     "editor.wordWrap": "on",
+    "workbench.colorTheme": "Default Dark Modern",
     "twineTweeLanguage.project.create": false
 }
