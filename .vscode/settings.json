@@ -1,3 +1,5 @@
 {
-    "twee3LanguageTools.storyformat.current": "sugarcube-2"
+    "twee3LanguageTools.storyformat.current": "sugarcube-2",
+    "twineTweeLanguage.build.outputFile": "index.html",
+    "twineTweeLanguage.build.buildDirectory": ""
 }
